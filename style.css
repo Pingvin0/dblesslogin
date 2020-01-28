@@ -1,0 +1,89 @@
+body {
+background-color: #444;
+margin: 0;
+overflow: hidden;
+font-family: "Arial", sans-serif;
+}
+p,h1,h2,h3,h4,h5,h6 {
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.formcont {
+	display:inline-block;
+}
+
+input[type=text], input[type=password], input[type=email] {
+background-color:#ffffff;
+border: 0px;
+padding:8px;
+font-size:14px;
+color:black;
+border-radius:3px;
+display:inline-block;
+margin:5px;
+width:200px;
+}
+
+input::placeholder {
+color:black;
+}
+
+button {
+border:0px;
+background-color:#232323;
+color:white;
+padding: 8px 17px 8px 17px;
+font-size:17px;
+cursor:pointer;
+transition:0.2s;
+}
+
+button:hover {
+transition:0.2s;
+background-color:#333333;
+}
+
+ul {
+list-style-type: none;
+display:inline-block;
+width:100%;
+overflow: hidden;
+background-color:#333;
+margin:0;
+padding:0;
+}
+
+li {
+display:inline;
+margin: 0;
+cursor:pointer;
+float:left;
+}
+
+li a {
+margin:0;
+padding: 9px 15px;
+background-color:#333;
+text-decoration:none;
+color:white;
+cursor:pointer;
+display:block;
+}
+
+li a:hover {
+color:white;
+background-color:#00aacc;
+transition: 0.2s;
+}
+
+.active {
+background-color:#ddd;
+color:black;
+}
+
+hr {
+width:30%;
+border: 2px solid white;
+border-radius: 2px;
+}
